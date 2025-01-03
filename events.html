@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Event Center Events Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icons" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <h1 href="index.html" class="logo">Logo</h1>
+        <button popovertarget="menu" class="menu-button">
+            <div class="menu-button-container">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </button>
+        <nav popover role="menu" id="menu">
+            <button popovertarget="menu" popovertargetaction="hide" class="menu-button">
+                <div class="menu-button-container">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="events.html">Events</a></li>
+                <li class="nav-item"><a href="catering.html">Catering</a></li>
+                <li class="nav-item"><a href="location.html">Location</a></li>
+                <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="tiles">
+        <div class="tile">
+            <h2 class="tile-title">What Events Do We Host?</h2>
+            <p class="tile-text">The answer is almost anything your heart desires! But here are a few of our most popular events...</p>
+        </div>
+
+    </section>
+
+    <section class="tiles">
+        <div class="photo-wrapper">
+            <img src="/Photos/wedding.jpg" alt="A woman holding a bouquet wearing a wedding dress" class="photo-tile">
+            <div class="photo-content">
+                <h2>Weddings</h2>
+                <p>Celebrate your special day in a venue that combines elegance and versatility. Our community center offers a beautiful and welcoming space 
+                    to host your dream wedding, complete with customizable layouts, modern amenities, and a team dedicated to making your vision a reality.
+                </p>
+            </div>
+        </div>
+        <div class="photo-wrapper">
+            <img src="/Photos/fair.jpg" alt="A ferris wheel with red and yellow gondolas" class="photo-tile">
+            <div class="photo-content">
+                <h2>Community Events</h2>
+                <p>Bring your community together in a space designed for connection and creativity. From bustling craft fairs to vibrant cultural festivals, 
+                    our community center provides the perfect venue with ample room, accessible facilities, and support to make your event a memorable success. 
+                </p>
+            </div>
+        </div>
+        <div class="photo-wrapper">
+            <img src="/Photos/party.jpg" alt="A group of people cheersing at a party" class="photo-tile">
+            <div class="photo-content">
+                <h2>Parties</h2>
+                <p>Turn your celebration into an unforgettable experience at our community center! Whether it's a birthday, anniversary, or any other special occasion, 
+                    we offer the perfect blend of flexibility and charm. With spacious rooms, customizable setups, and plenty of amenities, 
+                    we’ll help you host a party your guests will rave about.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com/" target="_blank" class="social-link"><ion-icon name="logo-facebook" class="social-icon"></ion-icon></a>
+            <a href="https://x.com/?lang=en" target="_blank" class="social-link"><ion-icon name="logo-twitter" class="social-icon"></ion-icon></a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-link"><ion-icon name="logo-instagram" class="social-icon"></ion-icon></a>
+        </div>
+    </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

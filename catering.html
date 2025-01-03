@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Event Center Catering Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icons" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <h1 href="index.html" class="logo">Logo</h1>
+        <button popovertarget="menu" class="menu-button">
+            <div class="menu-button-container">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </button>
+        <nav popover role="menu" id="menu">
+            <button popovertarget="menu" popovertargetaction="hide" class="menu-button">
+                <div class="menu-button-container">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="events.html">Events</a></li>
+                <li class="nav-item"><a href="catering.html">Catering</a></li>
+                <li class="nav-item"><a href="location.html">Location</a></li>
+                <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="tiles">
+        <div class="photo-wrapper">
+            <img src="/Photos/drinks.jpg" alt="Colorful fruity drinks set on a table" class="photo-tile">
+            <div class="photo-content">
+                <h2>Open Bar &amp; Drinks</h2>
+                <p>Refresh your senses with our vibrant and festive drink selections, 
+                    featuring handcrafted cocktails and mocktails infused with fresh fruits, herbs, 
+                    and seasonal flavors. Perfect for any occasion!
+                </p>
+            </div>
+        </div>
+        <div class="photo-wrapper">
+            <img src="/Photos/steak.jpg" alt="Steak and vegtables on a plate set next to a glass of wine" class="photo-tile">
+            <div class="photo-content">
+                <h2>Lunch &amp; Dinner</h2>
+                <p>From perfectly grilled steaks, gourmet pasta dishes, savory chicken entrées, and fresh seafood specialties, 
+                    we offer a diverse range of meals crafted to suit any taste or dietary preference.
+                </p>
+            </div>
+        </div>
+        <div class="photo-wrapper">
+            <img src="/Photos/dessert.jpg" alt="Fruit tarts set on a table" class="photo-tile">
+            <div class="photo-content">
+                <h2>Dessert</h2>
+                <p>Indulge in our exquisite desserts, like mini citrus tarts topped 
+                    with fresh blackberries, decadent chocolate creations, or classic favorites like cheesecakes 
+                    or fruit parfaits, ensuring a sweet ending for every guest.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="catering-section">
+        <table class="catering-table">
+            <tr>
+                <th>Options</th>
+                <th>&lt; 50 People</th>
+                <th>50 - 100 People</th>
+                <th>&gt; 100 People</th>
+            </tr>
+
+            <tr class="highlighted-row">
+                <td>Dinner Only</td>
+                <td>$25 per person</td>
+                <td>$22 per person</td>
+                <td>$20 per person</td>
+            </tr>
+
+            <tr>
+                <td>Dinner &amp; Dessert</td>
+                <td>$35 per person</td>
+                <td>$32 per person</td>
+                <td>$30 per person</td>
+            </tr>
+
+            <tr class="highlighted-row">
+                <td>Full Course</td>
+                <td>$50 per person</td>
+                <td>$45 per person</td>
+                <td>$40 per person</td>
+            </tr>
+
+            <!-- Empty row for styling purposes -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="tiles">
+        <div class="tile">
+            <h2 class="tile-title">Dinner Only:</h2>
+            <ul>
+                <li class="tile-text">One entrée</li>
+                <li class="tile-text">Two sides</li>
+                <li class="tile-text">One drink/cocktail</li>
+                <li class="tile-text">Bread rolls, or similar accompaniment</li>
+            </ul>
+        </div>
+
+        <div class="tile">
+            <h2 class="tile-title">Dinner &amp; Dessert:</h2>
+            <ul>
+                <li class="tile-text">Dinner package</li>
+                <li class="tile-text">Choice of one full size or two smaller dessert options (e.g. cake, cookies, fruit, etc...)</li>
+            </ul>
+        </div>
+
+        <div class="tile">
+            <h2 class="tile-title">Full Course:</h2>
+            <ul>
+                <li class="tile-text">2 Appetizers</li>
+                <li class="tile-text">Dinner &amp; Dessert package</li>
+                <li class="tile-text">Open bar</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com/" target="_blank" class="social-link"><ion-icon name="logo-facebook" class="social-icon"></ion-icon></a>
+            <a href="https://x.com/?lang=en" target="_blank" class="social-link"><ion-icon name="logo-twitter" class="social-icon"></ion-icon></a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-link"><ion-icon name="logo-instagram" class="social-icon"></ion-icon></a>
+        </div>
+    </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Event Center Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icons" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1 href="index.html" class="logo">Logo</h1>
+        <button popovertarget="menu" class="menu-button">
+            <div class="menu-button-container">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </button>
+        <nav popover role="menu" id="menu">
+            <button popovertarget="menu" popovertargetaction="hide" class="menu-button">
+                <div class="menu-button-container">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="events.html">Events</a></li>
+                <li class="nav-item"><a href="catering.html">Catering</a></li>
+                <li class="nav-item"><a href="location.html">Location</a></li>
+                <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="/Photos/table.jpg" alt="A set table with a flower set piece in the center" class="hero-photo">
+            <div class="hero-box">
+                <h2 class="hero-title">Community Center</h2>
+                <p class="hero-text">Welcome to our site!</p>
+            </div>
+    </section>
+
+    <section class="tiles">
+        <div class="tile">
+            <h2 class="tile-title">About Us</h2>
+            <p class="tile-text">Welcome to our community center, a hub for connection, growth, and enrichment. 
+                Our mission is to provide a welcoming space where individuals of all ages and backgrounds can come together to learn, create, and thrive. 
+                From educational workshops and recreational activities to support services and cultural events, we’re here to serve as a cornerstone of our community. 
+                Join us as we build a brighter future, one connection at a time!
+            </p>
+        </div>
+
+        <div class="tile">
+            <h2 class="tile-title">Featured Events</h2>
+            <ul>
+                <li class="tile-text">Weddings</li>
+                <li class="tile-text">Community Events</li>
+                <li class="tile-text">Parties</li>
+            </ul>
+        </div>
+
+        <div class="tile">
+            <h2 class="tile-title">Reach Out</h2>
+            <p class="tile-text">Interested in scheduling your next event? Have any questions? Reach out to us!</p>
+            <button onclick="location.href='contact_us.html'" class="tile-button">Contact Us</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com/" target="_blank" class="social-link"><ion-icon name="logo-facebook" class="social-icon"></ion-icon></a>
+            <a href="https://x.com/?lang=en" target="_blank" class="social-link"><ion-icon name="logo-twitter" class="social-icon"></ion-icon></a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-link"><ion-icon name="logo-instagram" class="social-icon"></ion-icon></a>
+        </div>
+    </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

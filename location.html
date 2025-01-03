@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Event Center Events Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icons" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <h1 href="index.html" class="logo">Logo</h1>
+        <button popovertarget="menu" class="menu-button">
+            <div class="menu-button-container">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </button>
+        <nav popover role="menu" id="menu">
+            <button popovertarget="menu" popovertargetaction="hide" class="menu-button">
+                <div class="menu-button-container">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="events.html">Events</a></li>
+                <li class="nav-item"><a href="catering.html">Catering</a></li>
+                <li class="nav-item"><a href="location.html">Location</a></li>
+                <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d548.814647468708!2d-94.8368260482892!3d38.911073852482126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c096472a59e953%3A0xd16ba7aca4866bc9!2s21692%20W%20119th%20Terrace%2C%20Olathe%2C%20KS%2066061!5e0!3m2!1sen!2sus!4v1735605170960!5m2!1sen!2sus" 
+        width="800" height="600" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+    </section>
+
+    <section class="tiles">
+        <div class="tile">
+            <h3 class="tile-title">Our Address:</h3>
+            <p class="tile-text">21692 W 119th Terrace, Olathe, KS 66061</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com/" target="_blank" class="social-link"><ion-icon name="logo-facebook" class="social-icon"></ion-icon></a>
+            <a href="https://x.com/?lang=en" target="_blank" class="social-link"><ion-icon name="logo-twitter" class="social-icon"></ion-icon></a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-link"><ion-icon name="logo-instagram" class="social-icon"></ion-icon></a>
+        </div>
+    </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Event Center Events Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icons" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <h1 href="index.html" class="logo">Logo</h1>
+        <button popovertarget="menu" class="menu-button">
+            <div class="menu-button-container">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </button>
+        <nav popover role="menu" id="menu">
+            <button popovertarget="menu" popovertargetaction="hide" class="menu-button">
+                <div class="menu-button-container">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="events.html">Events</a></li>
+                <li class="nav-item"><a href="catering.html">Catering</a></li>
+                <li class="nav-item"><a href="location.html">Location</a></li>
+                <li class="nav-item"><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-form-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form" method="post">
+            <div class="form-group">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" name="name" id="name" required placeholder="Jill Smith">
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="jillsmith@email.com">
+            </div>
+            <div class="form-group">
+                <label for="message" class="form-label">Message/Inquiry:</label>
+                <textarea name="message" id="message" required placeholder="I would like to discuss options for my next event..."></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com/" target="_blank" class="social-link"><ion-icon name="logo-facebook" class="social-icon"></ion-icon></a>
+            <a href="https://x.com/" target="_blank" class="social-link"><ion-icon name="logo-twitter" class="social-icon"></ion-icon></a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-link"><ion-icon name="logo-instagram" class="social-icon"></ion-icon></a>
+        </div>
+    </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
